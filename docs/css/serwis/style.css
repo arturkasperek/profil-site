@@ -1,0 +1,75 @@
+body { background: #aaa url(../../img/serwis/layout/bg.jpg) repeat-x 0 0 ; }
+a { color: #2A5625; text-decoration: none; }
+h1, h2, h3, h4 ,h5, h6 { font-weight: normal; }
+
+#header { height: 220px; background: #fff url(../../img/serwis/layout/top.jpg) no-repeat 0 0; }
+#header h1 { text-indent: -9999em; }
+#logo { height: 150px; }
+#logo h1 { float: left; }
+
+#search { float: right; margin-top: 50px; background: url(../../img/serwis/layout/searchbg.jpg) repeat-x 0 0; padding: 10px;  }
+#search input.snd { text-indent: -9999em; border: none; height: 24px; line-height: 24px; width: 24px; background: url(../../img/serwis/layout/search.png) no-repeat center center;}
+#search input.txt { border: none; background-color: #fff; padding: 5px; margin:0 10px 0 0; width: 200px; }
+#search input.snd:hover { cursor: pointer; }
+
+#scroll { height: 50px; padding: 10px 0; overflow: hidden; }
+#scroll ul { list-style: none; margin: 0; padding: 0; height: 50px; overflow: hidden; }
+#scroll ul li { margin: 0 10px; padding: 0; float: left; }
+
+#wrapper { clear: both; background: #fff url(../../img/serwis/layout/mid.jpg) no-repeat center top; }
+#container { background: url(../../img/serwis/layout/bot.png) no-repeat bottom right; }
+
+#wrapper ul.menu { list-style: none; margin: 10px 0; padding: 0; }
+#wrapper ul.menu li { margin: 10px; padding: 0; font-weight: bold; letter-spacing: 1px; text-shadow: 0 0 5px #000;}
+#wrapper ul.menu li a { display: block; width: 199px; height: 56px; line-height: 56px; text-align: center; background: url(../../img/serwis/layout/menu_0.png) no-repeat 0 0; color: #fff; }
+#wrapper ul.menu li a:hover { background: url(../../img/serwis/layout/menu_1.png) no-repeat 0 0; }
+
+#wrapper .portlet { margin: 10px 0; }
+#wrapper .slideshow { width: 220px; height: 165px; }
+#wrapper .slideshow img { display: block; vertical-align: bottom; }
+ 
+#content { padding-top: 1em; padding-bottom: 1em; }
+#content h1 , #content #index h2 { font-weight: bold; font-size: 26px; border-bottom: 2px solid #b1c901;  }
+
+#content h1 , #content h2 { color: #888;  margin-bottom: 5px; padding-bottom: 0;  }
+#content h1 a , #content h2 a { color: #888; }
+#content h2, #content h1 {  text-transform: uppercase; }
+
+#content p.date { font-size: 10px; text-transform: uppercase; }
+#content p.date a { font-weight: bold; }
+
+#content ul.gallery { list-style: none; margin: 10px 0 10px 10px; padding: 0; }
+#content ul.gallery li { margin:0 10px 10px 0; padding: 0; float: left; }
+#content ul.gallery li a { display: block; width: 220px; height: 165px; margin:0; padding:0; vertical-align: middle; line-height: 165px; text-align: center; }
+
+#content ul.thumb { list-style: none; margin: 10px 0 10px 10px; padding: 0; }
+#content ul.thumb li { float: left; margin: 0 10px 10px 0; padding: 0; }
+#content ul.thumb li a { display: block; float: left; margin: 0; }
+#content ul.thumb li a img { display: block; vertical-align: bottom; width: 220px; height: 165px; overflow: hidden; border: none; outline: none; background-color: #fff; }
+#content ul.thumb li a small { display: block; text-align: center; padding: 0; margin:0; width: 220px; height: 20px; line-height: 20px; overflow: hidden; color: #222; text-align: center; text-transform:uppercase; font-weight: bold; letter-spacing: 1px; background-color: #b1c901; }
+
+#content ul.tags { clear: both; font-size: 10px; list-style-type: none; color: #888; margin: 0; padding: 0; letter-spacing: normal; }
+#content ul.tags li { float: left; margin: 10px 5px 10px 0; padding: 0; border-bottom: 1px dotted #444; }
+
+#content .description { float: left; width: 350px; }
+#content .map { float: right; width: 350px; }
+
+#footer { clear: both; background-color: #aaa; border-top: 2px solid #666; }
+#foot { }
+
+#foot .counter { background-color: #888; padding: 5px 10px; color: #fff; font-weight: bold; text-align: center; font-size: 14px; }
+
+#foot address { font-style: normal; font-size: 12px; margin: 10px 0; text-align: center; }
+#foot p { font-style: normal; font-size: 12px; margin: 10px 0; text-align: center;  }
+
+#foot ul.tags { list-style: none; margin:10px 0; padding: 0; overflow: hidden; letter-spacing: 1px; font-size: 10px; font-weight: bold; text-transform: uppercase;  text-align: center; }
+#foot ul.tags li { display: inline; margin: 0; padding: 0;  }
+#foot ul.tags li a { color: #fff; padding: 0; white-space: nowrap;}
+
+ul.subcategory { list-style: none; margin: 0; padding: 0; }
+ul.subcategory li { margin: 0; padding: 0; text-align: center; }
+ul.subcategory li a { font-weight: bold; margin: 10px; padding: 10px; background: url(../../img/serwis/layout/searchbg.jpg) repeat-x 0 0; display: block; color: #fff; text-shadow: 0 0 5px #000; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; border: 2px solid #b1c901; }
+
+#search {  
+	display: none;
+}
