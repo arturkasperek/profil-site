@@ -89,11 +89,21 @@ Internet Explorer nie potrafi poprawnie wyświetlić tej strony. Kliknij tutaj, 
 <div class="summary"></div>
 
 <div class="items">
-<h2 class="bottom"><a href="serwis/tekst/id/1">Witamy!</a></h2><div class="content"><p><span style="font-size: larger"><strong>Jesteśmy firmą specjalizującą się w sprzedaży akcesori&oacute;w, okuć i&nbsp;materiał&oacute;w meblowych.</strong></span></p>
-<p><img src="uploads/image/profil.jpg" width="300" height="225" align="right" alt="" />Na stanie magazynowym (dostępne &quot;od ręki&quot;) posiadamy wszelkie podstawowe okucia niezbędne do wykonania zabud&oacute;w kuchennych i szaf przesuwnych. Ponadto sprowadzamy &quot;na zam&oacute;wienie&quot; materiały wykonane &quot;pod Klienta&quot;, tj, fronty, fronty ramkowe aluminiowe, blaty itp. Dla Klient&oacute;w o specjalnych wymaganiach sprowadzamy nietypowe wyposażenie i okucia wszystkich firm dostępnych na polskim rynku. Doradzamy.</p>
+<h2 class="bottom"><a href="serwis/tekst/id/1">Witamy!</a></h2><div class="content"><p><span style="font-size: larger"><strong>Jesteśmy firmą specjalizującą się w sprzedaży akcesori&oacute;w, okuć i&nbsp;materiał&oacute;w do produkcji mebli.</strong></span></p>
+<p><img src="uploads/image/profil.jpg" width="300" height="225" align="right" alt="" />Na stanie magazynowym (dostępne &quot;od ręki&quot;) posiadamy wszelkie podstawowe okucia niezbędne do wykonania różnego rodzaja mebli. Posiadamy w swojej ofercie płyty meblowe cięte na wymiar oraz blaty kuchenne różnych producentów. Ponadto sprowadzamy na zam&oacute;wienie materiały wykonane pod Klienta, np. fronty. Dla Klient&oacute;w o specjalnych wymaganiach sprowadzamy nietypowe wyposażenie i okucia wszystkich firm dostępnych na polskim rynku. Doradzamy w kwestii wyboru materiałów i okuć.</p>
 <p><strong>Oferujemy akcesoria do produkcji mebli kuchennych, okucia do drzwi przesuwnych, okucia do wszystkich rodzaj&oacute;w mebli.</strong></p>
-<p style="text-align: center"><strong>W swojej ofercie posiadamy: systemy do drzwi przesuwnych: </strong></p>
-<p style="text-align: center">&quot;Laguna&quot;, &quot;Autoprofil&quot;; gotowe skrzydła drzwiowe do szaf &quot;Astin&quot; (na zam&oacute;wienie); system szuflad i zawias&oacute;w &quot;Blum&quot;; zawiasy &quot;FGV&quot;, &quot;Star&quot;; prowadnice kulkowe i rolkowe &quot;Gamet&quot;, &quot;Star&quot;, &quot;Strong&quot;; uchwyty &quot;Gamet&quot;, &quot;Nomet&quot;, &quot;GTV&quot;; wieszaki do garder&oacute;b &quot;Gamet&quot;, &quot;Nomet&quot;; kosze typu &quot;Cargo&quot; : &quot;Nomet&quot;, &quot;Rejs&quot;, &quot;Gamet&quot;, &quot;Peka&quot;, &quot;Vibo&quot; i inne;</p></div><div class="content">
+<p><strong>W swojej ofercie posiadamy:</strong><ul>
+        <li>płyty meblowe (cięte na wymiar i oklejane),</li>
+        <li>blaty kuchenne,</li>
+        <li>systemy do drzwi przesuwnych,</li>
+        <li>zawiasy meblowe,</li>
+        <li>prowadnice do szuflad,</li>
+        <li>uchwyty meblowe,</li>
+        <li>nogi i kółka meblowe,</li>
+        <li>oświetlenie meblowe (taśmy i profile LED),</li>
+        <li>materiały łączące (wkręty, kołki, łączniki meblowe),</li>
+        <li>inne pozostałe okucia niezbędne do wykonania mebli.</li>
+    </ul></div><div class="content">
 </div>
 <br class="x"/>
 </div>
@@ -113,7 +123,7 @@ Internet Explorer nie potrafi poprawnie wyświetlić tej strony. Kliknij tutaj, 
 <div class="portlet-content">
 <p style="text-align: center;"><span style="font-size: larger;"><strong>PROFIL</strong></span><br />
 <strong> HURTOWNIA AKCESORI&Oacute;W I PROFILI MEBLOWYCH</strong><br />
-<span style="font-size: smaller;">42-400 Zawiercie</span><span style="font-size: smaller;"><span title="Zawiercie, żabia 39" class="o2address"> ul. Żabia 39</span> ( dawna stolarnia przy markecie &quot;Format&quot; )</span></p></div>
+<span style="font-size: smaller;">42-400 Zawiercie</span><span style="font-size: smaller;"><span title="Zawiercie, żabia 39" class="o2address"> ul. Żabia 39</span> ( dawna stolarnia przy markecie &quot;Format - PSB Mrówka&quot; )</span></p></div>
 </div></div>
 
 <div class="grid_2">
@@ -151,19 +161,19 @@ godziny otwarcia: 9:00-17:30</p></div>
 
 jQuery(function($){
     //$('#animation').jcarousel({ scroll:1, auto:8, animation: 1000, wrap: 'circular'});
-    
+
     var imgsize=0, $scroller=$('#scroller'), scroll=function() {
-      $scroller.css({'marginLeft':0}).animate({ marginLeft: '-'+imgsize+'px'}, { duration:imgsize*50, easing:'linear', complete:scroll } ); 
+      $scroller.css({'marginLeft':0}).animate({ marginLeft: '-'+imgsize+'px'}, { duration:imgsize*50, easing:'linear', complete:scroll } );
     }
     $('li',$scroller).each(function(index) { imgsize+=$(this).outerWidth(true); $(this).clone().appendTo($scroller); });
     $scroller.width(imgsize*2); //alert(imgsize);
     scroll();
 
     $('.slideshow').cycle();
-    
+
 });
 </script>
- 
+
 
 <script type="text/javascript" src="assets/b9d5e89/listview/jquery.yiilistview.js"></script>
 <script type="text/javascript">

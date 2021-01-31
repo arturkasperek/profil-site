@@ -107,7 +107,7 @@ Na stanie magazynowym (dostępne &quot;od ręki&quot;). Posiadamy wszelkie podst
 <div class="portlet-content">
 <p style="text-align: center;"><span style="font-size: larger;"><strong>PROFIL</strong></span><br />
 <strong> HURTOWNIA AKCESORI&Oacute;W I PROFILI MEBLOWYCH</strong><br />
-<span style="font-size: smaller;">42-400 Zawiercie</span><span style="font-size: smaller;"><span title="Zawiercie, żabia 39" class="o2address"> ul. Żabia 39</span> ( dawna stolarnia przy markecie &quot;Format&quot; )</span></p></div>
+<span style="font-size: smaller;">42-400 Zawiercie</span><span style="font-size: smaller;"><span title="Zawiercie, żabia 39" class="o2address"> ul. Żabia 39</span> ( dawna stolarnia przy markecie &quot;Format - PSB Mrówka&quot; )</span></p></div>
 </div></div>
 
 <div class="grid_2">
@@ -145,19 +145,19 @@ godziny otwarcia: 9:00-17:30</p></div>
 
 jQuery(function($){
     //$('#animation').jcarousel({ scroll:1, auto:8, animation: 1000, wrap: 'circular'});
-    
+
     var imgsize=0, $scroller=$('#scroller'), scroll=function() {
-      $scroller.css({'marginLeft':0}).animate({ marginLeft: '-'+imgsize+'px'}, { duration:imgsize*50, easing:'linear', complete:scroll } ); 
+      $scroller.css({'marginLeft':0}).animate({ marginLeft: '-'+imgsize+'px'}, { duration:imgsize*50, easing:'linear', complete:scroll } );
     }
     $('li',$scroller).each(function(index) { imgsize+=$(this).outerWidth(true); $(this).clone().appendTo($scroller); });
     $scroller.width(imgsize*2); //alert(imgsize);
     scroll();
 
     $('.slideshow').cycle();
-    
+
 });
 </script>
- 
+
 
 <script type="text/javascript" src="../../../assets/b9d5e89/listview/jquery.yiilistview.js"></script>
 <script type="text/javascript">

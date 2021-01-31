@@ -85,22 +85,24 @@ Internet Explorer nie potrafi poprawnie wyświetlić tej strony. Kliknij tutaj, 
 <h1>Oferta</h1><div class="content"><p><span style="font-size: larger;"><strong>Oferujemy akcesoria do produkcji mebli kuchennych, okucia do drzwi przesuwnych, okucia do wszystkich rodzaj&oacute;w mebli.</strong></span></p>
 <h2>Posiadamy w ofercie:</h2>
 <ul>
-    <li>nogi i n&oacute;żki i k&oacute;łka &quot;GTV&quot;, Wurth&quot; i inne;</li>
-    <li>wkręty: &quot;Marcpol&quot;,  &quot;Wkręt-Met&quot;, &quot;Wurth&quot;;</li>
-    <li>oświetlenie &quot;Kash&quot;, &quot;MCJ&quot;;</li>
-    <li>fronty meblowe MDF  foliowane i lakierowane na zam&oacute;wienie &quot;Amco&quot;, Apperta&quot;, &quot;Golmeb&quot;,  &quot;Proform&quot;;</li>
-    <li>fronty meblowe drewniane i forniorowane na zam&oacute;wienie  &quot;Tossi&quot;;</li>
-    <li>fronty ramkowe aluminiowe z wypełnieniami ze szkła na  zam&oacute;wienie;</li>
-    <li>blaty na zam&oacute;wienie &quot;Formica&quot;;</li>
-    <li>obrzeża PCV na zam&oacute;wienie  &quot;LG-Hi Macs&quot;;</li>
-    <li>pełny asortyment wszelkiego rodzaju innych okuć i  wyposażenia niezbędnych do Twoich mebli.</li>
+    <li>płyty meblowe: "Egger", "Kronospan",</li>
+    <li>obrzeża meblowe papierowe i PCV,</li>
+    <li>blaty kuchenne: "Egger", "Resopal", "Juan", "Kronospan", "Kronopol", "Biuro-Styl",</li>
+    <li>fronty meblowe: "Wiech", "Tossi", "Juka", "Styl-Front", "Aquaakryl",</li>
+    <li>systemy do drzwi przesuwnych: "Laguna", "Aluprofil",</li>
+    <li>szuflady i prowadnice do szuflad: "Blum", "Strong", "GTV", "ATM", "Rejs",</li>
+    <li>zawiasy: "Blum", "FGV", "Strong", "GTV", "Rejs",</li>
+    <li>nogi i kółka: "Strong", "ATM", "Wurth",</li>
+    <li>uchwyty: "Nomet", "Gamet", "Tulip", "GTV", "DeNovo",</li>
+    <li>wyposażenie do mebli kuchennych: kosze cargo, kosze do szafek narożnych, segregatory na odpadki, wkłady na sztućce, ociekarki marek takich jak "Rejs", "Nomet", "Peka", "Vibo",</li>
+    <li>inne okucia np. zawieszki, łączniki, listy wykończeniowe, profile łączące, oświetlenie meblowe, wkręty, łączniki, podpórki.</li>
 </ul></div><div id="yw0" class="list-view">
 
 
 <div class="items">
 <span class="empty"></span></div>
 <div class="keys" style="display:none" title="/serwis/kategoria/id/3/menu/3"></div>
-</div><h2 class="subcategory">Grupy towarowe</h2><ul class="subcategory"><li><a title="Oferta w/g producentów" href="../../kategoria/id/13">OFERTA WG PRODUCENTÓW</a></li><li><a title="Oferta w/g zastosowań" href="../../kategoria/id/14">OFERTA WG ZASTOSOWAŃ</a></li></ul></div>
+</div><h2 style="display: none" class="subcategory">Grupy towarowe</h2><ul style="display: none" class="subcategory"><li><a title="Oferta w/g producentów" href="../../kategoria/id/13">OFERTA WG PRODUCENTÓW</a></li><li><a title="Oferta w/g zastosowań" href="../../kategoria/id/14">OFERTA WG ZASTOSOWAŃ</a></li></ul></div>
 
 </div>
 </div>
@@ -115,7 +117,7 @@ Internet Explorer nie potrafi poprawnie wyświetlić tej strony. Kliknij tutaj, 
 <div class="portlet-content">
 <p style="text-align: center;"><span style="font-size: larger;"><strong>PROFIL</strong></span><br />
 <strong> HURTOWNIA AKCESORI&Oacute;W I PROFILI MEBLOWYCH</strong><br />
-<span style="font-size: smaller;">42-400 Zawiercie</span><span style="font-size: smaller;"><span title="Zawiercie, żabia 39" class="o2address"> ul. Żabia 39</span> ( dawna stolarnia przy markecie &quot;Format&quot; )</span></p></div>
+<span style="font-size: smaller;">42-400 Zawiercie</span><span style="font-size: smaller;"><span title="Zawiercie, żabia 39" class="o2address"> ul. Żabia 39</span> ( dawna stolarnia przy markecie &quot;Format - PSB Mrówka&quot; )</span></p></div>
 </div></div>
 
 <div class="grid_2">
@@ -153,19 +155,19 @@ godziny otwarcia: 9:00-17:30</p></div>
 
 jQuery(function($){
     //$('#animation').jcarousel({ scroll:1, auto:8, animation: 1000, wrap: 'circular'});
-    
+
     var imgsize=0, $scroller=$('#scroller'), scroll=function() {
-      $scroller.css({'marginLeft':0}).animate({ marginLeft: '-'+imgsize+'px'}, { duration:imgsize*50, easing:'linear', complete:scroll } ); 
+      $scroller.css({'marginLeft':0}).animate({ marginLeft: '-'+imgsize+'px'}, { duration:imgsize*50, easing:'linear', complete:scroll } );
     }
     $('li',$scroller).each(function(index) { imgsize+=$(this).outerWidth(true); $(this).clone().appendTo($scroller); });
     $scroller.width(imgsize*2); //alert(imgsize);
     scroll();
 
     $('.slideshow').cycle();
-    
+
 });
 </script>
- 
+
 
 <script type="text/javascript" src="../../../assets/b9d5e89/listview/jquery.yiilistview.js"></script>
 <script type="text/javascript">
